@@ -1,6 +1,5 @@
-let producto = Number(prompt("Ingrese el valor del producto"));
-let iva = Number(prompt("Ingrese el iva del producto"));
-let aumentoiva = producto * iva;
-    alert("El precio que tendrá que pagar de más por el iva es de: $" + aumentoiva + " pesos ")
-let preciofinal = aumentoiva + producto;
-    alert("El precio total del producto es de: $" + preciofinal);
+let name = prompt("Ingrese su nombre");
+let hortrab = Number(prompt("Ingrese las horas que trabajó"));
+let paghor = 15.300;
+let sueldo = hortrab * paghor;
+    alert("El sueldo de " + name + " por trabajar " + hortrab + " horas, es de: $" + sueldo + " mil pesos" );
