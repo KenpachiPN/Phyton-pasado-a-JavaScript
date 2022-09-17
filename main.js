@@ -1,8 +1,6 @@
-let name = prompt("Ingrese su nombre");
-let parcial1 = Number(prompt("Ingrese la calificación del primer parcial"));
-let parcial2 = Number(prompt("Ingrese la calificación del segundo parcial"));
-let parcial3 = Number(prompt("Ingrese la calificación del tercer parcial"));
-let examenfin = Number(prompt("Ingrese la calificación del exámen final"));
-let trabajofin = Number(prompt("Ingrese la calificación del trabajo final"));
-let result = (((parcial1 + parcial2 + parcial3) /3) * 0.55) + (examenfin * 0.30) + (trabajofin * 0.15);
-    alert("El promedio final que tuvo " + name + " en la materia de algoritmos es de: " + result);
+let producto = Number(prompt("Ingrese el valor del producto"));
+let iva = Number(prompt("Ingrese el iva del producto"));
+let aumentoiva = producto * iva;
+    alert("El precio que tendrá que pagar de más por el iva es de: $" + aumentoiva + " pesos ")
+let preciofinal = aumentoiva + producto;
+    alert("El precio total del producto es de: $" + preciofinal);
