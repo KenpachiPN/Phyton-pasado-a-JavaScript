@@ -1,6 +1,5 @@
-let radio = Number(prompt("Ingrese el radio de la circunferencia"));
-let longitud = 2 * Math.PI * radio;
-let area = Math.PI * Math.pow(radio,2);
-    alert("La longitud de la circunferencia es de: " + longitud + "\n" +
-          "El área de la circunferencia es de: " + area);
+let distancia = Number(prompt("Ingrese la distancia que recorre el proyectil"));
+let tiempo = Number(prompt("Ingrese el tiempo que se demora recorriendo esa distancia"))
+let velocidad = (distancia * 1000) / (tiempo * 60);
+    alert("La velocidad del proyectil es de: " + velocidad + " M/S" );
                   
