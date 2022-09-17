@@ -1,4 +1,6 @@
-let distancia = Number(prompt("Ingrese la distancia que recorre el automovil, KM"));
-let tiempo = Number(prompt("Ingrese el tiempo que se demora recorriendo esa distancia, KM/H"))
-let velocidad = (distancia * 1000) / (tiempo * 60);
-    alert("La velocidad del automovil es de: " + velocidad + " M/S" );
+let remedios = Number(prompt("Ingrese el precio del remedio $"));
+let iva = 0.10;
+let descuento = remedios * 0.10;
+    alert("El descuento qué recibirá por nuestra promoción de remedios es de: " + descuento + "$ pesos");
+let total = remedios - descuento; 
+    alert("El valor del remedio es de: " + total + "$ pesos");
