@@ -1,6 +1,8 @@
-let a = Number(prompt("Ingrese el valor de a"));
-let b = Number(prompt("Ingrese el valor de b")); 
-let c = Number(prompt("Ingrese el valor de c"));
-let volumen = (4/3) * Math.PI * a * b * c ;
-    alert("El volumen del elipsoide es de: " + volumen );
+let tiempo = Number(prompt("Ingrese los minutos que duró en llamada"));
+let valuemin = 355; 
+let iva = 0.20;
+let valuemin1 = tiempo * valuemin;
+let ivamin = valuemin * 0.20;
+let total = valuemin1 + ivamin; 
+    alert("El valor de su llamada telefónica por " + tiempo +  " minutos, es de: " + total + "$ pesos");
 
