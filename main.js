@@ -1,4 +1,6 @@
-let radio = Number(prompt("Ingrese el radio de la esfera"));
-let volumen = 4 / 3 * Math.PI * Math.pow(radio,3);
-    alert("El volumen de la esfera es de: " + volumen );
-                  
+let a = Number(prompt("Ingrese el valor de a"));
+let b = Number(prompt("Ingrese el valor de b")); 
+let c = Number(prompt("Ingrese el valor de c"));
+let result = (a+7*c) / (b+2-a) + 2*b;
+    alert("El resultado de la expresión es de: " + result );
+
