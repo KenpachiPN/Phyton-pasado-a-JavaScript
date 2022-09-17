@@ -5,70 +5,7 @@
 }
 
 h1 {
-    margin: 10px;
-     font-size: 40px;
-     text-align: center;
-}
-
-div { 
-    display: flex;
-    justify-content: center;
-    
-}
-.sumar { 
-    margin: 10px;
-}
-.restar { 
-    margin: 10px;
-}
-.multiplicar { 
-    margin: 10px;
-}
-.dividir { 
-    margin: 10px;
-}
-button { 
-    font-size: 150px;
-    width: 22.22%;
-    padding: 10px;
-    font-weight: 600px;
-    border-radius: 6px;
-    border: 2px solid #1889ba;
-    background: lightgray;
-    color: #ffffff;
-
-}
-
-button:hover {
-    background: red;
-    color: white;
-}
-
-
-.textodeoperaciones {
-    margin: 10px;
-
-}
-input {
     text-align: center;
-    width: 250px;
-    display: block;
-
-}
-
-.num1 {
-    margin: 10px;
-}
-
-.num2 { 
-    margin: 10px;
-}
-.result {
-    margin: 20px;
-
-}
-p {
-    font-size: 20px;
-    color: #ffffff;
-    padding: 10px;
+    font-size: 1.4em;
+    color: whitesmoke;
 }

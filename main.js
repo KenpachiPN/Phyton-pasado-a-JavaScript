@@ -1,14 +1,12 @@
+let num1 = Number(prompt("Ingrese un número"));
+    let num2 = Number(prompt("Ingrese un número"));
+    let result = num1 + num2;
+    let result1 = num1 - num2;
+    let result2 = num1 * num2;
+    let result3 = num1 / num2;
+    alert("La suma de " + num1 + " y " + num2 + " es de: " + result + "\n" +
+                   "La resta de " + num1 + " y " + num2 + " es de: " + result1 + "\n" +
+                   "La multiplicación de " + num1 + " y " + num2 + " es de: " + result2 + "\n" +
+                   "La división de " + num1 + " y " + num2 + " es de: " + result3);
 
-document.getElementById("sumar").onclick = textsuma;
-function textsuma(){
-    alert("Has decidido sumar");
-}
-
-
-Ejercicios.getElementById("result").onclick = sumar; 
-function sumar(){
-    var numero1 = document.getElementById("num1").value;
-    var numero2 = document.getElementById("num2").value;
-    var suma = parseInt(num1) + parseInt(num2);
-    alert("La suma es: " +suma);
-}
+                   
