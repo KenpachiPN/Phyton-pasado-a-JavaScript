@@ -1,5 +1,4 @@
-let distancia = Number(prompt("Ingrese la distancia que recorre el proyectil"));
-let tiempo = Number(prompt("Ingrese el tiempo que se demora recorriendo esa distancia"))
-let velocidad = (distancia * 1000) / (tiempo * 60);
-    alert("La velocidad del proyectil es de: " + velocidad + " M/S" );
+let radio = Number(prompt("Ingrese el radio de la esfera"));
+let volumen = 4 / 3 * Math.PI * Math.pow(radio,3);
+    alert("El volumen de la esfera es de: " + volumen );
                   
