@@ -1,7 +1,10 @@
 let name = prompt("Ingrese su nombre");
-let examen1 = Number(prompt("Ingrese la calificación del primer exámen"));
-let examen2 = Number(prompt("Ingrese la calificación del segundo exámen"));
-let examen3 = Number(prompt("Ingrese la calificación del tercer exámen"));
-let examen4 = Number(prompt("Ingrese la calificación del cuarto exámen"));
-let promedio = (examen1 + examen2 + examen3 + examen4) /4;
-    alert("El promedio de " + name + " en sus 4 exámenes es de: " + promedio + " puntos");
+let sueldo = 1000;
+let venta1 = Number(prompt("Ingrese el total de su primer venta"));
+let venta2 = Number(prompt("Ingrese el total de su segunda venta"));
+let venta3 = Number(prompt("Ingrese el total de su tercera venta"));
+let iva = 0.10;
+let comision = venta1 + venta2 + venta3 * 0.10;
+    alert("La comisión que recibirá por sus 3 ventas es de: $" + comision + " pesos");
+let sueldofinal = sueldo + comision;
+    alert("El sueldo total de " + name + " mas la comisión por sus 3 ventas en el mes es de: $" + sueldofinal + " pesos");
