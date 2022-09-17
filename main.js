@@ -1,6 +1,7 @@
-let a = Number(prompt("Ingrese el valor de a"));
-let b = Number(prompt("Ingrese el valor de b")); 
-let c = Number(prompt("Ingrese el valor de c"));
-let result = (a+7*c) / (b+2-a) + 2*b;
-    alert("El resultado de la expresión es de: " + result );
+let radio = Number(prompt("Ingrese el radio del cilindro "));
+let altura = Number(prompt("Ingrese la altura del cilindro")); 
+let area = (2 * Math.PI * Math.pow(radio,2)) + ((2 * Math.PI * radio) * altura);
+let volumen = (Math.PI * Math.pow(radio,2) * altura)
+    alert("El área del cilindro es de: " + area + "\n" + 
+          "El volumen del cilindro es de: " + volumen  );
 
